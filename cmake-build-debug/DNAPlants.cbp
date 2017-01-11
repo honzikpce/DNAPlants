@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DNAPlants"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DNAPlants">
+				<Option output="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/DNAPlants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/cablegibbon443/Dropbox/dev/headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 DNAPlants"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DNAPlants/fast">
+				<Option output="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/DNAPlants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/cablegibbon443/Dropbox/dev/headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 DNAPlants/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/App.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/App.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/ConstsAndTypes.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/DragDropListener.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/DragDropListener.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/Flower.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/Flower.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/FlowerContainer.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/FlowerContainer.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/GreenHouse.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/GreenHouse.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/InsectBug.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/InsectBug.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/MainMenu.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/MainMenu.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/ProgressBar.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/ProgressBar.h">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/RandomNumbers.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/RandomNumbers.hpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/main.cpp">
+			<Option target="DNAPlants"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cablegibbon443/Dropbox/dev/DNAPlants/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

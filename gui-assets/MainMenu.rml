@@ -1,0 +1,23 @@
+<rml>
+    <head>
+        <link type="text/css" href="GreenHouse.rcss"/>
+        <title>Flower info</title>
+    </head>
+    <body class="MainMenu">
+        <div >
+            <Button id="start">
+                Play
+            </Button>
+
+            <Button>
+                Settings
+            </Button>
+
+            <Button id="exit">
+                Exit
+            </Button>
+
+        </div>
+
+    </body>
+</rml>

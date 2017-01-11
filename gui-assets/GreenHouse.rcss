@@ -1,0 +1,158 @@
+
+body.shelf
+{
+    font-family: Delicious;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15;
+
+
+
+    color: white;
+    width: 240px;
+    height: 80px;
+    padding: 20px;
+}
+
+body.MainMenu
+{
+    font-family: Delicious;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15;
+    margin: auto;
+
+
+    color: white;
+    width: 150px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+
+    /*background-color: blue; */
+}
+
+body.window
+{
+    margin: auto;
+    margin-top : 70px;
+    color: white;
+    width: 150px;
+    height: 300px;
+    padding: 20px;
+    font-family: Delicious;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17;
+
+    text-align: center;
+    padding-top: 20px; /* move contents  */
+
+    outline-font-effect: outline;
+    outline-width: 1px;
+    outline-color: black;
+
+
+
+    background-decorator: tiled-box;
+    background-top-left-image: invader.tga 0px 0px 133px 140px;
+    background-top-right-image: invader.tga 136px 0px 146px 140px;
+    background-top-image: invader.tga stretch 134px 0px 135px 140px;
+    background-bottom-left-image: invader.tga 0px 140px 11px 151px;
+    background-bottom-right-image: invader.tga 136px 140px 146px 151px;
+    background-bottom-image: invader.tga stretch 11px 140px 12px 151px;
+    background-left-image: invader.tga stretch 0px 139px 10px 140px;
+    background-center-image: invader.tga stretch 11px 139px 12px 140px;
+}
+
+div
+{
+    display: block;
+}
+
+
+div#title-bar span
+{
+    display: none;
+    font-size: 22;
+    font-weight: bold;
+    font-family : Delicious;
+    text-shadow: 2px 2px black;
+}
+
+button {
+
+    display: inline-block;
+
+    width: 140px;
+    height: 40px;
+    background-decorator : image;
+    background-image : invader.tga 247px 0px 406px 45px;
+
+    font-size: 15;
+    font-weight: bold;
+
+    text-align: center;
+    padding-top: 20px; /* move contents  */
+
+    outline-font-effect: outline;
+    outline-width: 1px;
+    outline-color: black;
+}
+
+button:hover {
+    background-image-t: 45px 90px; /* new y coords */
+}
+
+button:active {
+    background-image-t: 90px 135px; /* new y coords */
+}
+
+div#infotext {
+    font-family: Delicious;
+    font-size: 24;
+
+}
+
+flower
+{
+    /* The icons are floated left so they appear left-to-right. */
+    float: left;
+
+    /* The padding is added to push the text down to the bottom of the element. The inner dimensions plus the
+       padding come to 100px square. */
+    width: 40px;
+    height: 40px;
+    /* padding: 60px 10px 0px 10px; */
+    margin: 10px 10px 10px 10px;
+
+    background-decorator: image;
+    background-image: flowerpot.png 0px 0px 60px 60px;
+
+    font-size: 12;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    drag : clone;
+}
+
+health-frame {
+
+    position: absolute;
+    background : black;
+}
+
+health-fill {
+    position: absolute;
+    background : #ba1128;
+}
+
+water-frame {
+
+    position: absolute;
+    background : black;
+}
+
+water-fill {
+    position: absolute;
+    background : #379ee6;
+}

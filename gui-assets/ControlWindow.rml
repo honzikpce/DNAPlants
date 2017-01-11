@@ -1,0 +1,20 @@
+<rml>
+    <head>
+        <link type="text/css" href="GreenHouse.rcss"/>
+        <title>Flower info</title>
+    </head>
+    <body class="window">
+        <div >
+            FLOWER INFO
+            <br /><br />
+            <div>health<br/></div>
+            <div id="healthinfo">
+            </div>
+            <br/>
+            <div>water<br/></div>
+            <div id="waterinfo">
+            </div>
+        </div>
+
+    </body>
+</rml>
